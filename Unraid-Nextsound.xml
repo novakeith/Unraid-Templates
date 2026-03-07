@@ -8,23 +8,23 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/novakeith/NextSound</Support>
-  <Project>https://github.com/novakeith/NextSound<Project/>
+  <Project>https://github.com/novakeith/NextSound</Project>
   <Overview>Audio sharing and feedback tool.</Overview>
-  <Category>Other:<Category/>
-  <WebUI>http://[IP]:[PORT:8027]/<WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/novakeith/NextSound-Unraid/refs/heads/main/Unraid-Nextsound.xml<TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/novakeith/NextSound/refs/heads/main/assets/favicon.ico<Icon/>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:8027]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/novakeith/NextSound-Unraid/refs/heads/main/Unraid-Nextsound.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/novakeith/NextSound/refs/heads/main/assets/favicon.ico</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  </DateInstalled>
+  <DateInstalled/>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Web UI Port" Target="80" Default="8027" Mode="tcp" Description="Access web interface" Type="Port" Display="always" Required="true" Mask="false">8027</Config>
   <Config Name="Data" Target="/var/www/html/data" Default="" Mode="rw" Description="Storage location for the SQLite database." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nextsound/data</Config>
   <Config Name="Uploads" Target="/var/www/html/uploads" Default="" Mode="rw" Description="Storage location for all user uploads." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nextsound/uploads</Config>
-  <Config Name="Admin password" Target="ADMIN_PASSWORD" Default="" Mode="" Description="Set a secure admin password" Type="Variable" Display="always" Required="true" Mask="false">MyPasswordHere<Config>
+  <Config Name="Admin password" Target="ADMIN_PASSWORD" Default="" Mode="" Description="Set a secure admin password" Type="Variable" Display="always" Required="true" Mask="false">MyPasswordHere</Config>
   <Config Name="Site Title" Target="SITE_TITLE" Default="" Mode="" Description="Default site title. Can be changed later in settings panel." Type="Variable" Display="always" Required="false" Mask="false">NextSound-Unraid</Config>
   <TailscaleStateDir/>
 </Container>
