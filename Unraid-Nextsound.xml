@@ -12,8 +12,8 @@
   <Overview>Audio sharing and feedback tool.</Overview>
   <Category>Other:<Category/>
   <WebUI>http://[IP]:[PORT:8027]/<WebUI/>
-  <TemplateURL>https://github.com/novakeith/NextSound/blob/main/assets/Unraid-Nextsound.xml<TemplateURL/>
-  <Icon>https://github.com/novakeith/NextSound/blob/main/assets/favicon.ico<Icon/>
+  <TemplateURL>https://raw.githubusercontent.com/novakeith/NextSound-Unraid/refs/heads/main/Unraid-Nextsound.xml<TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/novakeith/NextSound/refs/heads/main/assets/favicon.ico<Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
