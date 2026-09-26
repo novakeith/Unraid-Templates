@@ -16,24 +16,24 @@
   <Requires>No extra requirements.</Requires>
   <License>AGPL-3.0</License>
 
-  <Screenshot>https://camo.githubusercontent.com/c1db622af56adc920795ae66e1d7ddaa387505a432b556c648b53b625f4d0e10/68747470733a2f2f6e6f76616b656974682e6e65742f77702d636f6e74656e742f75706c6f6164732f323032362f30332f536f6e6770616765312e706e67</Screenshot>
-  <Screenshot>https://camo.githubusercontent.com/b9b37ffb299e0aabfb9d2c5f6f645cf8be474367fcc0c99df691a4f93ff3094d/68747470733a2f2f6e6f76616b656974682e6e65742f77702d636f6e74656e742f75706c6f6164732f323032362f30332f536f6e67706167652d322e706e67</Screenshot>
+  <Screenshot>https://novakeith.net/wp-content/uploads/2026/03/Songpage1.png</Screenshot>
+  <Screenshot>https://novakeith.net/wp-content/uploads/2026/03/Songpage-2.png</Screenshot>
   
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/novakeith/NextSound-Unraid/refs/heads/main/Unraid-Nextsound.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/novakeith/Unraid-Templates/refs/heads/main/Unraid-Nextsound.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/novakeith/NextSound/refs/heads/main/assets/favicon.ico</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
   
-  <DonateText>Support me on Ko-Fi<DonateText/>
-  <DonateLink>https://www.ko-fi.com/knovak<DonateLink/>
+  <DonateText>Support me on Ko-Fi</DonateText>
+  <DonateLink>https://www.ko-fi.com/knovak</DonateLink>
 
   <Config Name="Web UI Port" Target="80" Default="8027" Mode="tcp" Description="Access web interface" Type="Port" Display="always" Required="true" Mask="false">8027</Config>
   <Config Name="Data" Target="/var/www/html/data" Default="" Mode="rw" Description="Storage location for the SQLite database." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nextsound/data</Config>
   <Config Name="Uploads" Target="/var/www/html/uploads" Default="" Mode="rw" Description="Storage location for all user uploads." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nextsound/uploads</Config>
-  <Config Name="Admin password" Target="ADMIN_PASSWORD" Default="" Mode="" Description="Set a secure admin password" Type="Variable" Display="always" Required="true" Mask="false">MyPasswordHere</Config>
+  <Config Name="Admin password" Target="ADMIN_PASSWORD" Default="" Mode="" Description="Set a secure admin password" Type="Variable" Display="always" Required="true" Mask="true">MyPasswordHere</Config>
   <Config Name="Site Title" Target="SITE_TITLE" Default="" Mode="" Description="Default site title. Can be changed later in settings panel." Type="Variable" Display="always" Required="false" Mask="false">NextSound-Unraid</Config>
   <TailscaleStateDir/>
 </Container>
